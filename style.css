@@ -1,5 +1,5 @@
 body {
-    background: rgb(125, 198, 205);
+    background: rgb(32, 102, 108);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -15,6 +15,8 @@ nav {
    margin: 0 auto;
     display: flex;
     padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 h1 {
     display: flex;
@@ -60,3 +62,7 @@ main {
 h2, h3 {
     margin: 0px;
 }
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+ }
