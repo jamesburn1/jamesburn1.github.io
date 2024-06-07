@@ -66,3 +66,28 @@ h2, h3 {
     max-width: 800px;
     margin: auto;
  }
+/* portfolio styles */
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: gold;
+}
